@@ -49,7 +49,7 @@
 }
 
 main{
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 main > section{
@@ -81,7 +81,7 @@ main > section{
 
 }
 .navbar , .banner{
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -102,14 +102,15 @@ main > section{
 
 /* teams section */
 .teams{
-    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
 }
 .teams-image-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 24px;
 }
-
 
 .our-features{
     margin-left: 80px;
@@ -122,6 +123,26 @@ main > section{
 
 #features-text{
     color: #FF900E;
+}
+
+/* features section */
+.features-container .section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.features{
+    gap: 140px;
+}
+.features-card{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    
+}
+.card-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* some facts */
